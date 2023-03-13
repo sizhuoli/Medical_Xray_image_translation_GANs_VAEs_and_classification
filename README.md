@@ -92,15 +92,15 @@
 https://github.com/fyu/drn
 ###
 https://github.com/mingyuliutw/UNIT
-###
+##
 ## Industrial collaborator
 Radiobotics ApS, Denmark 
-###
+##
 ## Master's thesis
 Author: Sizhuo Li
-##
+###
 Supervisors: Bulat Ibragimov and Eric Navarro (Radiobotics)
-##
+###
 University of Copenhagen
-##
+###
 August, 2020
