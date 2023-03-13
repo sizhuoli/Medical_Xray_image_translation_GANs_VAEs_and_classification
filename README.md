@@ -1,4 +1,4 @@
-##------- Medical Image Synthesis Using VAEs & GANs ------- 
+# ------- Medical Image Synthesis Using VAEs & GANs ------- 
 
 
 (*) This project contains: 
