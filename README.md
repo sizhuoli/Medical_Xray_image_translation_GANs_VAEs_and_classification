@@ -8,7 +8,7 @@
 4. Verification of the generated fake images
 
 
-## Software dependency:
+## ---- Software dependency ----
 - Python3
 - torch
 - torchvision
@@ -16,7 +16,7 @@
 - tensorboard
 
 
-## Running steps:
+## ---- Running steps ----
 ### 1. Data pre-processing
     -----------------------------------------------------------
     Working directory: 'final_files/raw_data/'
@@ -87,16 +87,16 @@
     ==> Plots saved in 'results/'
 
 
-## Code reference *
+## ---- Code reference * ----
 
 https://github.com/fyu/drn
 ###
 https://github.com/mingyuliutw/UNIT
 ##
-## Industrial collaborator
+## ---- Industrial collaborator ----
 Radiobotics ApS, Denmark 
 ##
-## Master's thesis
+## ---- Master's thesis ----
 Author: Sizhuo Li
 ###
 Supervisors: Bulat Ibragimov and Eric Navarro (Radiobotics)
