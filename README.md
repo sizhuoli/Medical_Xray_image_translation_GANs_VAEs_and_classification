@@ -1,14 +1,14 @@
 # ------- Medical Image Synthesis Using VAEs & GANs ------- 
 
 
-(*) This project contains: 
+## (*) This project contains: 
 1. Preprocessing of X-ray images of knee joint
 2. Training of a VAE + GAN network for image2image translation
 3. Training of DRNs for binary classification
 4. Verification of the generated fake images
 
 
-(*) Software dependency:
+## (*) Software dependency:
 - Python3
 - torch
 - torchvision
@@ -16,8 +16,8 @@
 - tensorboard
 
 
-(*) Running steps:
-1. Data pre-processing
+## (*) Running steps:
+### 1. Data pre-processing
     -----------------------------------------------------------
     Working directory: 'final_files/raw_data/'
     Original data: 'img/' & 'img_2nd/'
@@ -27,7 +27,7 @@
     ==> Create datasets for translation and classificiation tasks
     ==> Cropped patches saved in 'cropped_patches/'
 
-2. Training of translation model 
+### 2. Training of translation model 
     -----------------------------------------------------------
     Working directory: 'final_files/translation/'
     Data: 'data/'
@@ -36,7 +36,7 @@
     ==> Train GAN network
     ==> Trained weights and sample images saved in 'data/outputs/'
 
-3. Generation of fake unhealthy patches
+### 3. Generation of fake unhealthy patches
     -----------------------------------------------------------
     Working directory: 'final_files/translation/'
     Data: 'data/'
@@ -45,7 +45,7 @@
     ==> Translate healthy patches into unhealthy ones
     ==> Translated patches saved in 'translated_patches/'
 
-4. Training of baseline classification model
+### 4. Training of baseline classification model
     -----------------------------------------------------------
     Working directory: 'final_files/classification/'
     Data: 'data/'
@@ -53,7 +53,7 @@
     Run 'classification_training.ipynb' (STEP 0 & 1)
     ==> Trained model saved in 'classify_01_models/'
 
-5. Training of new classification models with augmented dataset
+### 5. Training of new classification models with augmented dataset
     -----------------------------------------------------------
     Working directory: 'final_files/classification/'
     Data: 'data/'
@@ -66,7 +66,7 @@
             to the unhealthy domain in the original training dataset)
     ==> Trained model saved in 'classify_01_models/'
 
-6. Evaluation
+### 6. Evaluation
     -----------------------------------------------------------
     Working directory: 'final_files/classification/'
     Data: 'data/'
@@ -87,7 +87,7 @@
     ==> Plots saved in 'results/'
 
 
-(*) Code reference
+## (*) Code reference
 
 https://github.com/fyu/drn
 https://github.com/mingyuliutw/UNIT
