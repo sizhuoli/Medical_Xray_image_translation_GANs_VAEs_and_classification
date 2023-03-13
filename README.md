@@ -97,7 +97,10 @@ https://github.com/mingyuliutw/UNIT
 Radiobotics ApS, Denmark 
 ###
 ## Master's thesis
-Author: Sizhuo Li##
-Supervisors: Bulat Ibragimov and Eric Navarro (Radiobotics)##
-University of Copenhagen##
+Author: Sizhuo Li
+##
+Supervisors: Bulat Ibragimov and Eric Navarro (Radiobotics)
+##
+University of Copenhagen
+##
 August, 2020
